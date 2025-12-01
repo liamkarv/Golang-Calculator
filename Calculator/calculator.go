@@ -41,5 +41,5 @@ func CalculateResult(operation string, n1 int, n2 int) int {
 }
 
 func main(){
-	CalculateResult(GetInput())
+	fmt.Println("Calculation result:", CalculateResult(GetInput()))
 }
