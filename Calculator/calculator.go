@@ -10,18 +10,35 @@ func GetInput() (string, int, int) {
 	fmt.Println("Choose an operation (+, -, *, /): ")
 	fmt.Scan(&operationType)
 
-	fmt.Println(": ")
+	fmt.Println("Choose a number: ")
 	fmt.Scan(&number1)
 
-	fmt.Println(": ")
+	fmt.Println("Choose another number: ")
 	fmt.Scan(&number2)
 	return operationType, number1, number2
 }
 
 func CalculateResult(operation string, n1 int, n2 int) int {
+	var result int
+
+	if operation == "+" {
+		result = n1 + n2
+	}
 	
-	
-	return 
+	if operation == "-" {
+		result = n1 + n2
+	}
+
+	if operation == "*" {
+		result = n1 + n2
+	}
+
+	if operation == "/" {
+		result = n1 + n2
+	}
+
+
+	return result
 }
 
 func main(){
