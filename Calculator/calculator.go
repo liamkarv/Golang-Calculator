@@ -26,17 +26,16 @@ func CalculateResult(operation string, n1 int, n2 int) int {
 	}
 	
 	if operation == "-" {
-		result = n1 + n2
+		result = n1 - n2
 	}
 
 	if operation == "*" {
-		result = n1 + n2
+		result = n1 * n2
 	}
 
 	if operation == "/" {
-		result = n1 + n2
+		result = n1 / n2
 	}
-
 
 	return result
 }
